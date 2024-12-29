@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a{
+    padding-top:5px 10px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a.active{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+#cart{
+    border: 1px solid black;
+}
+.container{
+    padding: 0 5%;
+}
+#grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+    
+
+}
+#contain{
+    width: 90%;
+    margin: 0 auto;
+}
